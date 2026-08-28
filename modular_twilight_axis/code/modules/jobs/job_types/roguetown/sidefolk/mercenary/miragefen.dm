@@ -69,7 +69,7 @@
 		if ("Hooksword and Sling")
 			H.adjust_skillrank_up_to(/datum/skill/combat/swords, SKILL_LEVEL_EXPERT, TRUE)
 			H.adjust_skillrank_up_to(/datum/skill/combat/slings, SKILL_LEVEL_JOURNEYMAN, TRUE)
-			H.put_in_hands(new /obj/item/rogueweapon/sword/sabre/hook)
+			H.put_in_hands(new /obj/item/rogueweapon/sword/sabre/shamshir)
 			H.equip_to_slot_or_del(new /obj/item/rogueweapon/scabbard/sword, SLOT_BACK_R, TRUE)
 			H.equip_to_slot_or_del(new /obj/item/quiver/sling/iron, SLOT_BELT_R, TRUE)
 			H.equip_to_slot_or_del(new /obj/item/gun/ballistic/revolver/grenadelauncher/sling, SLOT_BELT_L, TRUE)
