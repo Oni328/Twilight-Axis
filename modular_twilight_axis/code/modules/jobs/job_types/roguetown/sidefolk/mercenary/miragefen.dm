@@ -63,10 +63,10 @@
 
 /datum/outfit/job/roguetown/mercenary/twilight_miragefen_rogue/choose_loadout(mob/living/carbon/human/H)
 	. = ..()
-	var/weapons = list("Hooksword and Sling", "Dual Daggers", "Trident")
+	var/weapons = list("Shamshir and Sling", "Dual Daggers", "Trident")
 	var/weapon_choice = input("Choose your weapon.", "The paw chooses...") as anything in weapons
 	switch(weapon_choice) //Трезубец ради тестов, Владмар сказал посмотрим как это будет играться, если будет имба пиздец, удалить это : - выделить и нажать Бекспейс.
-		if ("Hooksword and Sling")
+		if ("Shamshir and Sling")
 			H.adjust_skillrank_up_to(/datum/skill/combat/swords, SKILL_LEVEL_EXPERT, TRUE)
 			H.adjust_skillrank_up_to(/datum/skill/combat/slings, SKILL_LEVEL_JOURNEYMAN, TRUE)
 			H.put_in_hands(new /obj/item/rogueweapon/sword/sabre/shamshir)
