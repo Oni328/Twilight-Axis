@@ -72,7 +72,7 @@
 	neck = /obj/item/clothing/neck/roguetown/gorget
 	cloak = /obj/item/clothing/cloak/twilight_desert
 	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/heavy/raneshen
-	armor = /obj/item/clothing/suit/roguetown/armor/plate/iron
+	armor = /obj/item/clothing/suit/roguetown/armor/chainmail/hauberk/janissary
 	pants = /obj/item/clothing/under/roguetown/platelegs/iron
 	shoes = /obj/item/clothing/shoes/roguetown/boots/armor/iron
 	gloves = /obj/item/clothing/gloves/roguetown/chain/iron
